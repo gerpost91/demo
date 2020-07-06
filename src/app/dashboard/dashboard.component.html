@@ -1,3 +1,12 @@
+<!-- Start Page Loading -->
+<div id="loader-wrapper">
+  <div id="loader"></div>
+  <div class="loader-section section-left"></div>
+  <div class="loader-section section-right"></div>
+</div>
+<!-- End Page Loading -->
+
+
 <app-header></app-header>
 <div id="main">
   <!-- START WRAPPER -->
@@ -11,12 +20,116 @@
     <!--start container-->
     <div class="container card">
 
-      <router-outlet></router-outlet>
+      <!-- <router-outlet></router-outlet> -->
+      <div id="card-stats">
+        <div class="row mt-1">
+          <div class="col s12 m6 l3">
+            <div class="card bg-green gradient-shadow min-height-100 white-text">
+              <div class="padding-4">
+                <div class="col s7 m7">
+                  <i class="material-icons background-round mt-5">add_shopping_cart</i>
+                  <p>Orders</p>
+                </div>
+                <div class="col s5 m5 right-align">
+                  <h5 class="mb-0">690</h5>
+                  <p class="no-margin">New</p>
+                  <p>6,00,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card card bg-green  min-height-100 white-text">
+              <div class="padding-4">
+                <div class="col s7 m7">
+                  <i class="material-icons background-round mt-5">perm_identity</i>
+                  <p>Clients</p>
+                </div>
+                <div class="col s5 m5 right-align">
+                  <h5 class="mb-0">1885</h5>
+                  <p class="no-margin">New</p>
+                  <p>1,12,900</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card gcard bg-green  gradient-shadow min-height-100 white-text">
+              <div class="padding-4">
+                <div class="col s7 m7">
+                  <i class="material-icons background-round mt-5">timeline</i>
+                  <p>Sales</p>
+                </div>
+                <div class="col s5 m5 right-align">
+                  <h5 class="mb-0">80%</h5>
+                  <p class="no-margin">Growth</p>
+                  <p>3,42,230</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card card bg-green  gradient-shadow min-height-100 white-text">
+              <div class="padding-4">
+                <div class="col s7 m7">
+                  <i class="material-icons background-round mt-5">attach_money</i>
+                  <p>Profit</p>
+                </div>
+                <div class="col s5 m5 right-align">
+                  <h5 class="mb-0">$890</h5>
+                  <p class="no-margin">Today</p>
+                  <p>$25,000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="striped-table">
+        <h4 class="header">Striped Table</h4>
+        <div class="row">
+          <div class="col s12">
+            <p>Add <code class=" language-markup">class="striped"</code> to the table tag for a striped table</p>
+          </div>
+          <div class="col s12">
+            <table class="striped">
+              <thead>
+                <tr>
+                  <th data-field="id">Name</th>
+                  <th data-field="name">Item Name</th>
+                  <th data-field="price">Item Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Alvin</td>
+                  <td>Eclair</td>
+                  <td>$0.87</td>
+                </tr>
+                <tr>
+                  <td>Alan</td>
+                  <td>Jellybean</td>
+                  <td>$3.76</td>
+                </tr>
+                <tr>
+                  <td>Jonathan</td>
+                  <td>Lollipop</td>
+                  <td>$7.00</td>
+                </tr>
+                <tr>
+                  <td>Shannon</td>
+                  <td>KitKat</td>
+                  <td>$9.99</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
 
     </div>
-       <!--start container FiN-->
+    <!--start container FiN-->
   </section>
   <!--Cotneido Principal-->
   <!-- <app-footer></app-footer> -->
 </div>
-
