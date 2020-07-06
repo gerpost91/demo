@@ -9,6 +9,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { BreadcrumsComponent } from './shared/breadcrums/breadcrums.component';
 import { TableComponent } from './components/table/table.component';
 import { LoginComponent } from './login/login/login.component';
+import { RegisterComponent } from './login/register/register.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LoginComponent } from './login/login/login.component';
     FooterComponent,
     BreadcrumsComponent,
     TableComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
