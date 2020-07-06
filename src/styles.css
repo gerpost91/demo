@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*Colers Generales de la aplicaicon*/
+.bg-orange{
+  background-color: #FF8000
+}
+
+.text-green{
+  color: #108000;
+}
+
+.menu-active{
+  background-color:#108000;
+  color: white;
+}
+
+li.bold:hover{
+  background-color:#108000 !important;
+}
