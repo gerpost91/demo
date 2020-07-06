@@ -1,11 +1,16 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 
-const routes: Routes = [];
+import { LoginComponent } from './login/login/login.component';
+import { RegisterComponent } from './login/register/register.component';
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
+
+
+const appRoutes: Routes = [
+    { path: 'login', component: LoginComponent },
+    { path: 'register', component: RegisterComponent },
+  // { path: '**', component: NopagefoundComponent }
+];
+
+
+export const APP_ROUTES = RouterModule.forRoot( appRoutes, { useHash: true } );

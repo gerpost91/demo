@@ -1,1 +1,22 @@
-<p>dashboard works!</p>
+<app-header></app-header>
+<div id="main">
+  <!-- START WRAPPER -->
+  <app-sidebar></app-sidebar>
+
+
+  <!--Cotneido Principal-->
+  <section id="content">
+    <app-breadcrums></app-breadcrums>
+
+    <!--start container-->
+    <div class="container card">
+
+      <router-outlet></router-outlet>
+
+    </div>
+       <!--start container FiN-->
+  </section>
+  <!--Cotneido Principal-->
+  <!-- <app-footer></app-footer> -->
+</div>
+
