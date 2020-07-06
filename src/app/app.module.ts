@@ -10,6 +10,7 @@ import { BreadcrumsComponent } from './shared/breadcrums/breadcrums.component';
 import { TableComponent } from './components/table/table.component';
 import { LoginComponent } from './login/login/login.component';
 import { RegisterComponent } from './login/register/register.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RegisterComponent } from './login/register/register.component';
     BreadcrumsComponent,
     TableComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
